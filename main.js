@@ -11,7 +11,6 @@ let action = anime({
     value: '2turn',
     easing: 'easeInOutSine',
   },
-  backgroundColor: 'green',
   delay: function (elem, idx, targetLength) {
     return idx * 1000;
   },
@@ -29,7 +28,7 @@ document.querySelector('#boxes .pause').onclick = action.pause;
 //
 let textAction = anime({
   targets: '.text',
-  scale: [3, 1],
+  scale: [300, 1],
   translateY: [
     { value: -80, duration: 700 },
     { value: 0, duration: 800 },
@@ -40,5 +39,3 @@ let textAction = anime({
   },
   easing: 'easeOutExpo',
 });
-
-textAction.play();

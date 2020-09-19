@@ -46,16 +46,16 @@
   display: inline-block;
 }
 
-.red {
+.one {
   background-color: rgb(10, 10, 136);
 }
-.blue {
+.two {
   background-color: rgb(10, 10, 187);
 }
-.green {
+.three {
   background-color: purple;
 }
-.yellow {
+.four {
   background-color: rgb(164, 67, 243);
 }
 
