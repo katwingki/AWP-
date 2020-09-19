@@ -1,0 +1,69 @@
+/* center all boxes  */
+#boxes {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.text {
+  text-align: center;
+  font-size: 35px;
+  letter-spacing: 2px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(12, 6, 100);
+}
+
+#btns {
+  padding: 20px;
+  background-color: rgb(74, 150, 238);
+  margin-bottom: 20px;
+}
+
+#btns button {
+  background: rgb(144, 196, 231);
+  padding: 10px 15px;
+  border-radius: 25px;
+  border: 0;
+}
+
+#btns .fa {
+  font-size: 30px;
+}
+
+#btns .fa-play {
+  color: rgb(9, 145, 55);
+}
+
+#btns .fa-pause {
+  color: red;
+}
+
+.box {
+  position: relative;
+  width: 710px;
+  height: 7px;
+  margin: 4px;
+  display: inline-block;
+}
+
+.red {
+  background-color: rgb(10, 10, 136);
+}
+.blue {
+  background-color: rgb(10, 10, 187);
+}
+.green {
+  background-color: purple;
+}
+.yellow {
+  background-color: rgb(164, 67, 243);
+}
+
+.boxLetter.black {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  margin: 4px;
+  display: inline-block;
+  background-color: black;
+}
